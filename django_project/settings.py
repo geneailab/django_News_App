@@ -134,3 +134,6 @@ LOGOUT_REDIRECT_URL = "home"
 # Bootstrap related configuration
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+# Email Backend Configuration testing purpose
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
